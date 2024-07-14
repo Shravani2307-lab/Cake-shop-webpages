@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>About US</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="file:///C:/Users/Iball/Desktop/New%20folder/new.html">
+
+<style>
+
+  
+.mySlides {display:none;}
+.p2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  color: indigo;
+  background-color: lemonchiffon;
+}
+.p1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  background-color: lavender;
+}
+.p7{
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("cupback1.jpg");
+  background-size: 1300px;
+  color: #800080;
+  text-align: center;
+}
+h2{
+  font-size: 60px;
+font-family: 'Times New Roman', Times, serif;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white ;
+}
+
+.topnav a {
+  float: right;
+  color: #800080;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color:#66023c;
+}
+
+.topnav a.active {
+  background-color: #fc6c85;
+  color: fff0f5;
+}
+h2{
+  color:#800080;
+  text-align: center;
+  background-color: beige;
+}
+.p3{
+  background-color: lightpink;
+  color:purple;
+  font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.abtc{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(255, 220, 235);
+  color: #800080;
+}
+.TandC{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: lightgoldenrodyellow;
+  color: #66023c;
+}
+.branches{
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(228, 255, 245);
+color: rgb(92, 6, 92);
+}
+</style>
+</head>
+
+<div style="background-image: url('rainbowback.jpg');">
+
+   <div class="topnav">
+    <img src="cakelogonew1.jpg"class = "i1">
+    <a href="bill1.html">Bill</a>
+    <a class="active" href="pyo1.html">Place Your Order</a>
+    <a href="recipes1.html">Recipes</a>
+    <a href="aboutus1.html">About Us</a>
+    <a href="homepage1.html">Home</a>
+    
+  </div>
+
+<h2 class="center">Our Bakrey's</h2>
+
+<div class="content section" style="max-width:1300px" height="200">
+<img class="mySlides" src="cakeshop1.jpg" style="width:100%">
+<img class="mySlides" src="cakeshop2.jpg" style="width:100%">
+<img class="mySlides" src="cakeshop3.jpg" style="width:100%">
+<img class="mySlides" src="cakeshop4.jpg" style="width:100%">
+<img class="mySlides" src="cakeshop5.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000);
+}
+</script> 
+<p class="p2">About Us</p>
+<p class="p1"> Sugar stars started basically from a house bakrey. <br>
+  Mr. and Mrs. Caker belonged to a wealthy family but knew their limits.
+  From the starting amount of 50 $ extending now to a net income
+  of an about 3500 $ our bakrey has reached to far heights.<br>
+  Mr. and Mrs. Caker baked special cupcakes which were suprise cupcake. 
+  Each box of cupcake contained one cupcake, and the flavour would be a suprise.
+  This concept of suprises developed since then and continued still.
+</p>
+<p class="p3">Our Emplyoeement and Services...<br>
+Sugar Stars has more than 200 emplyoees hired under their institutions.<br>
+We provide not only Emplyoeement but also insurance to all our members.<br>
+We ensure that all our members are safe and enjoy our fellowship.
+During their work period they are provided with ESIC (Emplyoees' State Insurance Corporation) and 
+PF (Provident Fund) which ensures complete security.<br>
+Our emplyoees are not only emplyoees but are the members of our huge family Sugar Stars.
+</p>
+<p class="abtc">We bake our Cakes to atmost simplicity and use more of organic products.<br>
+  The Filling in our Cakes is Purely Not made from egg whites. We always welcome
+   Customers Reccomendations.<br>
+  The butter in our cakes is highly rich and made in our bakrey itself.<br>
+  You can Contact us to order butter made in our bakrey.<br>
+  We recommned you to go through the terms 
+  and conditions and privacy statements of our company.<br>
+  We AIM to open around more 5 branches in the US and DUBAI.<br>
+
+</p>
+<p class="branches"> WE HAVE OUR BRANCHES AT<br>
+1) India<br>
+2) California<br>
+3) Florida<br>
+4) New York<br>
+5) Germany<br>
+6) San Francisco<br>
+7) Dubai<br>
+8) Wellington<br>
+9) New Jersey<br>
+10) Poland<br> 
+ </p>
+<p class="TandC">The copyrights are highly resreved by the company.<br>
+  The recipe of the products are highlt secretive and are requested to be.<br>
+  In case of the prohibition of the Copyright and Privacy Act Strict actions
+   will be taken against the doer.
+</p>
+<p class="p7">Contact Us &copy;<br> Sugar Stars<br>
+  94 Trout St.
+  Los Angeles, CA 90066 <br>
+  Contact Number:- 56849<br>
+  Follow US On:
+  </p>
+</body>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .sm{
+              font-size: 20px;
+              font-family: cursive;
+              color: blue;
+          }
+          
+  
+  </style>
+  </head>
+  <body>
+  
+    <div class="row">
+      <div class="column">
+          <p><a href="https://www.instagram.com/"class="sm">Instagram</a></p>
+
+        <img src="instalogo.webp" alt="" style="width: 100px;">
+      </div>
+      <div class="column">
+          <p><a href="https://accounts.google.com/"class="sm">Gmail</a></p>
+        <img src="gmaillogo.png" alt="" style="width: 200px;">
+      </div>
+      <div class="column">
+          <p><a href="https://www.facebook.com/" class="sm">Facebook</a></p>
+        <img src="fblogo.png" alt="" style="width: 100px;">
+  </div>
+  
+  </body>
+</div>
+</html>

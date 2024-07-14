@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="homepage.html">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #e9b5b9;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid rgb(255, 187, 210);
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid rgb(233, 171, 192);
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+.btn {
+  background-color: #8d1b97;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #a045a0;
+}
+
+a {
+  color: #3a0849;
+}
+
+hr {
+  border: 1px solid rgb(240, 192, 215);
+}
+
+span.price {
+  float: right;
+  color: rgb(102, 15, 48);
+}
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+.topnav {
+  overflow: hidden;
+  background-color: white ;
+}
+
+.topnav a {
+  float: right;
+  color: #800080;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 192, 203);
+  color:#66023c;
+}
+
+.topnav a.active {
+  background-color: #fc6c85;
+  color: fff0f5;
+}
+.p3{
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("cupback1.jpg");
+  background-size: 1300px;
+  color: #800080;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <div style="background-image: url('rainbowback.jpg');">
+  <div class="topnav">
+    <img src="cakelogonew1.jpg"class = "i1" height="600" width="600">
+    <a href="bill.html">Bill</a>
+    <a class="active" href="pyo.html">Place Your Order</a>
+    <a href="recipies.html">Recipes</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="homepage.html">Home</a>
+  </div>
+
+<h2>BILL</h2>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Shravani C K">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="sk@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="14/2 CA 96 Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="California">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="US">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="230700">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <img src="visalogo.png" width="50">
+              <img src="rupay.jpg" width="75">
+              <img src="mastercard.jpg" width="60">
+              <img src="maestro.jpg" width="60">
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Shravani C K">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="2307-1122-1188-2307">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="February">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2017">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="232">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        
+        <p><a href="lp1.html"input type="submit" value="Continue to checkout" class="btn">Continue to checkout</a></p>
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart <span class="price" style="color:purple"><i class="fa fa-shopping-cart"></i> 
+        <b>4</b></span></h4>
+      <p><a href="#">Cake</a> <span class="price">$15</span></p>
+      <p><a href="#">CupCake</a> <span class="price">$5</span></p>
+      <p><a href="#">Delivery Charges</a> <span class="price">$3</span></p>
+      
+      <hr>
+      <p>Total Amount <span class="price" style="color:purple"><b>$23</b></span></p>
+    </div>
+  </div>
+</div>
+<p class="p3">Contact Us &copy; <br> Sugar Stars<br>
+  94 Trout St.
+  Los Angeles, CA 90066 <br>
+  Contact Number:- 56849<br>
+  Follow Us On:
+  </p>
+  </body>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row {
+      display: flex;
+    }
+    
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+    .sm{
+              font-size: 20px;
+              font-family: cursive;
+              color: blue;
+          }
+          
+    </style>
+    </head>
+    <body>
+    
+      <div class="row">
+        <div class="column">
+            <p><a href="https://www.instagram.com/"class="sm">Instagram</a></p>
+
+          <img src="instalogo.webp" alt="" style="width: 100px;">
+        </div>
+        <div class="column">
+            <p><a href="https://accounts.google.com/"class="sm">Gmail</a></p>
+          <img src="gmaillogo.png" alt="" style="width: 200px;">
+        </div>
+        <div class="column">
+            <p><a href="https://www.facebook.com/" class="sm">Facebook</a></p>
+          <img src="fblogo.png" alt="" style="width: 100px;">
+    </div>
+    
+    </body>
+  </div>
+</html>

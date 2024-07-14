@@ -1,0 +1,209 @@
+<html>
+    <style>
+        margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white ;
+}
+
+.topnav a {
+  float: right;
+  color: #800080;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color:#66023c;
+}
+
+.topnav a.active {
+  background-color: pink;
+  color: #66023c;
+}
+.i1 {
+  float: left;
+  width:300px;
+  height:200px;
+}
+.p1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #800080;
+}
+.p2{
+    font-size: 30px;
+    font-family: serif;
+    color: rgb(88, 8, 5);
+}
+.p3{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
+    text-align: center;
+}
+    </style>
+    <body>
+        <img src="cakelogonew1.jpg"class = "i1" height="600" width="600">
+       
+        <div class="topnav">
+        <a href="bill1.html">Bill</a>
+        <a class="active" href="pyo1.html">Place Your Order</a>
+       <a href="recipes1.html">Recipes</a>
+        <a href="aboutus1.html">About Us</a>
+        <a href="homepage1.html">Home</a>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div style="background-image: url('rainbowback.jpg');">
+      <p class="p1">Cupcake Recipe:</p>
+<p class="p3">Ingredients<br></p>
+<p class="p2">
+•	250g unsalted butter, softened <br>
+•	250g caster sugar<br>
+•	250g self-rising flour<br>
+•	Pinch of salt<br>
+•	4 medium eggs<br>
+•	4 tablespoons milk<br>
+
+Method<br><br>
+•	Set the oven to 190C, gas 5.<br>
+•	Tip the butter into a bowl and beat it until softened. Then add the sugar, <br>
+flour, salt, eggs, and milk and whisk until the mixture is smooth.<br>
+•	Use a traditional-style ice-cream scoop, or spoon, <br>
+to divide the mixture between all the paper cases.<br>
+•	Place both muffin tins in the oven and bake for 15 minutes,<br>
+then swap over the position of the tins over and bake for a further 3-7 minutes,
+until both trays of cupcakes are a light golden color.<br>
+•	Remove the tins from the oven. <br>
+Leave the cupcakes to cool in the tins for a few minutes.<br>
+ Then transfer them to a wire rack to cool.<br>
+</p>
+<img src="cupcake.jpg" width="700" height="400">
+
+<p class="p3">Vanilla Frosting<br></p>
+<p class="p2">1)	Beat butter until creamy. Make sure your butter is softened to room temperature before beginning.<br>
+    Use a hand or stand mixer to beat until smooth and creamy.<br>
+2.) Add sugar, cream, and vanilla extract. <br>
+   Beat on low speed until these ingredients are incorporated,<br>
+  then bump up the mixer to medium-high speed. At this point,<br>
+  you can add more confectioners’ sugar if the frosting is too thin or a splash of heavy cream if it’s too thick.<br><br>
+3) Taste and salt. Add a pinch of salt to offset the sweetness.<br>
+   Trust me on this one!<br>
+ </p>
+ <img src="vanillaF.jpg" width="700" height="400">
+
+ <p class="p3">Caramel Frosting<br></p>
+ <p class="p2"> 1)	To make the Caramel base for The Best Caramel Buttercream Frosting you will need Brown Sugar, Milk and Butter.<br>
+ 2)	In heavy saucepan, combine the brown sugar, butter and milk. <br>
+ 3)	Cook and stir over a low heat until the brown sugar is dissolved and the butter is melted.Increase the heat to medium.  Do not stir. <br>
+ 4)	Cook for 3-6 minutes until either bubbles form in the center of the pan or the mixture turns amber. For us, that is usually around 3 minutes.<br>
+ 5)	Remove from the caramel mixture from the heat and transfer it to a bowl.  Cool to room temperature. <br>
+ 6)	Once the caramel mixture has cooled, add it to a mixing bowl with the powdered sugar.<br>
+ 7)	Gradually mix until the frosting is combined and the desired consistency. Add milk, a teaspoon at a time, if the frosting is too thick. <br>
+ </p>
+ <img src="caramelF.jpg" width="700" height="400">
+
+ <p class="p3">Coconut Raspberry Frosting<br></p>
+ <p class="p2">1)	Preheat the oven to 350F. Line 18 regular muffin cups with paper liners.<br>
+ 2)	In a medium bowl, mix the flour, baking powder and salt; set aside. <br>
+    In a large bowl, beat the sugar and the butter with an electric mixer on medium speed. Add the eggs,<br>
+  1 at a time, beating well after each addition. Beat in the extracts. On low sped, alternately add the 1/3 of the flour mixture,<br><br>
+   1/2 of the buttermilk, another 1/3 of the flour, the remaining buttermilk and then the remaining flour, beating just until blended. Stir in the coconut.<br><br>
+ 3)	Divide batter evenly among muffin cups, filling each about 2/3 full.<br>
+ 4)	Bake for 16 to 18 minutes, or until a toothpick inserted in the middle comes out clean. Cool for 5 minutes; remove to a cooling rack to cool completely.<br><br>
+ 6)	In the bowl of a stand mixer, beat the butter until light and fluffy, 2-3 minutes.<br>
+  With the mixer on low, add the powdered sugar, 1/2 cup at a time, mixing until incorporated. <br>
+  Beat in the salt, then turn the mixer to medium-high and beat until light and fluffy, another 2-3 minutes.<br>
+   Add the jam and beat until combined. The buttercream should be light, creamy and smooth.<br>
+ </p>
+ <img src="coconutF.jpg" width="700" height="400">
+
+ <p class="p3">Chocolate Frosting<br></p>
+<p class="p2"> 1)	Whip butter and cocoa together until smooth in large bowl.<br>
+2)	Stir in vanilla and powdered sugar.<br>
+3)	Slowly stream in milk until frosting reaches desired consistency.<br>
+4)	Scrape sides and whip again until light, fluffy and smooth, 1-2 minute.<br>
+</p>
+<img src="chocolateF.jpg" width="700" height="400">
+
+<p class="p3">Cream Cheese Frosting<br></p>
+<p class="p2"> 1)	Talk about red velvet cake, cream cheese frosting comes to the mind. <br>
+2)	The two of them go hand in hand.<br>
+3)	 Cream cheese frosting is basically a buttercream frosting with cream cheese added to it. <br>
+4)	It is creamier, tastier and of course gorgeous looking. If you haven't tried it yet, it is time now!<br>
+</p>
+<img src="creamcheeseF.jpg" width="700" height="400">
+
+<p class="p3">Ganache Frosting<br></p>
+<p class="p2"> 1)	If you are a chocolate lover, you would love ganache. <br>
+2)	The basic ganache is made by heating heavy cream and further adding dark chocolate to it or you can even add chocolate chips to it. <br>
+3)	The irresistible smooth creamy texture will leave you asking for more.<br>
+4)	 We are sure; you will be left licking up the extra cream on your hands or just everything.<br>
+</p>
+<img src="ganacheF.jpeg" width="700" height="400">
+<br>
+<p class="p3">Contact Us &copy; <br> Sugar Stars<br>
+  94 Trout St.
+  Los Angeles, CA 90066 <br>
+  Contact Number:- 56849<br>
+  Follow US On:
+  </p>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row {
+      display: flex;
+    }
+    
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+    .sm{
+              font-size: 20px;
+              font-family: cursive;
+              color: blue;
+          }
+          
+    
+    </style>
+    </head>
+    <body>
+    
+      <div class="row">
+        <div class="column">
+            <p><a href="https://www.instagram.com/"class="sm">Instagram</a></p>
+
+          <img src="instalogo.webp" alt="" style="width: 100px;">
+        </div>
+        <div class="column">
+            <p><a href="https://accounts.google.com/"class="sm">Gmail</a></p>
+          <img src="gmaillogo.png" alt="" style="width: 200px;">
+        </div>
+        <div class="column">
+            <p><a href="https://www.facebook.com/" class="sm">Facebook</a></p>
+          <img src="fblogo.png" alt="" style="width: 100px;">
+    </div>
+    
+    </body>
+</div>
+</body>
+</html>

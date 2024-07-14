@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style> 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white ;
+}
+
+.topnav a {
+  float: right;
+  color: #800080;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color:#66023c;
+}
+
+.topnav a.active {
+  background-color: pink;
+  color: fff0f5;
+}
+
+.p1 {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 20px;
+}
+.p2{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px;
+}
+h2 {
+  font-family: papyrus ;
+  font-size: 50;
+  text-align: center;
+}
+.i1 {
+  float: left;
+  width:160px;
+  height:100px;
+}
+.p3{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("cupback1.jpg");
+  background-size: 1300px;
+  color: #800080;
+  text-align: center;
+}
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+  <div style="background-image: url('rainbowback.jpg');">
+<div class="topnav">
+  <img src="logo1.jpg"class = "i1" height="1500" width="500">
+  <a href="bill.html">Bill</a>
+  <a class="active" href="pyo.html">Place Your Order</a>
+  <a href="recipies.html">Recipes</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="homepage.html">Home</a>
+</div>
+<div class="content section" style="max-width:1300px " height="100">
+  <img class="mySlides" src="cakeback1.jpg" style="width:100%">
+  <img class="mySlides" src="cakeback2.jpg" style="width:100%">
+  <img class="mySlides" src="cakeback3.webp" style="width:100%">
+  <img class="mySlides" src="cakeback4.webp" style="width:100%">
+  <img class="mySlides" src="cakeback5.webp" style="width:100%">
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000);
+  }
+  </script> 
+  <h2>______________________A Little Bit Of Flour And Sugar______________________</h2>
+<style>
+body {background: #fff0f5}
+h1   {color: white;}
+p    {color: #66023c;}
+
+</style>
+
+<p class="p2">Sugar Stars</p>
+<p class="p1"> A Bakrey where we create memories with a loving cake. Sugar stars was invented by Mr. & Mrs. 
+Caker who lived in the city of california.
+They started with a small house bakrey and now owner of more than 30 branches across the world.
+The fantastic cakes and cupcakes are deliverd fresh at your door. 
+From the delcious handpicked fruit flavours to the rich cocoa chocolate everything is handmade.</p>
+<img src="oldbakrey.jpeg" height="500" width="1000">
+
+<p class="p2">CAKES EVOLVED LIKE...</p>
+<p class="p1">Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked. 
+In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate, 
+and that share features with other desserts such as pastries, meringues,custards, and pies.
+The most commonly used cake ingredients include flour, sugar, eggs, butter or oil or margarine, a liquid, and a leavening agent, such as baking soda or baking powder. 
+Common additional ingredients and flavourings include dried, candied, or fresh fruit, nuts, cocoa, and extracts such as vanilla, with numerous substitutions for the primary ingredients. 
+Cakes can also be filled with fruit preserves, nuts or dessert sauces (like pastry cream), iced with buttercream or other icings, and decorated with marzipan, piped borders, or candied fruit.
+</p>
+<img src="oldcake.jpg" height="400" width="500">
+<img src="oldcake2.jpg" height="400" width="500">
+
+<p class="p2">CUPCAKES EVOLVED LIKE...</p>
+<p class="p1">A cupcake is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup.
+As with larger cakes, frosting and other cake decorations such as fruit and candy may be applied.
+A standard cupcake uses the same basic ingredients as standard-sized cakes:
+butter, sugar, eggs, and flour. Nearly any recipe that is suitable for a layer cake can be used to bake cupcakes. 
+The cake batter used for cupcakes may be flavored or have other ingredients stirred in, such as raisins, berries, nuts, or chocolate chips.
+</p>
+<img src="oldcupcake.jpg" height="300" width="500">
+<img src="oldcupcake2.jpg" height="300" width="500">
+
+<p class="p3">Contact Us &copy; <br> Sugar Stars<br>
+94 Trout St.
+Los Angeles, CA 90066 <br>
+Contact Number:- 56849<br>
+Follow US On:
+</p>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .sm{
+              font-size: 20px;
+              font-family: cursive;
+              color: blue;
+          }
+          
+  
+  </style>
+  </head>
+  <body>
+  
+    <div class="row">
+      <div class="column">
+          <p><a href="https://www.instagram.com/"class="sm">Instagram</a></p>
+
+        <img src="instalogo.webp" alt="" style="width: 100px;">
+      </div>
+      <div class="column">
+          <p><a href="https://accounts.google.com/"class="sm">Gmail</a></p>
+        <img src="gmaillogo.png" alt="" style="width: 200px;">
+      </div>
+      <div class="column">
+          <p><a href="https://www.facebook.com/" class="sm">Facebook</a></p>
+        <img src="fblogo.png" alt="" style="width: 100px;">
+  
+  </body>
+
+</body>
+</div>
+</html>

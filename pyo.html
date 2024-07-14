@@ -1,0 +1,523 @@
+<DOCTYPE! html>
+<html>
+    <style>
+    .topnav {
+        overflow: hidden;
+        background-color: white ;
+      }
+      
+      .topnav a {
+        float: right;
+        color: #800080;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      
+      .topnav a:hover {
+        background-color: pink;
+        color:#66023c;
+      }
+      
+      .topnav a.active {
+        background-color: #fc6c85;
+        color: fff0f5;
+      }
+      .p1{
+        text-align: center;
+          font-size: 60px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          background-size: 1300px ;
+          color: rgb(64, 9, 116);
+          background-color: mistyrose;
+      }
+      .inplmi{
+          background-color: moccasin;
+      }
+      .plmibutton{
+          background-color: peachpuff;
+      }
+      table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: rgb(248, 222, 226);
+      color:purple;
+      }
+      .p2{
+        text-align: left;
+        font-size: 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-image: url('cupback.jpg');
+        background-size: 1000px ;
+        color:#800080;
+      }
+      * {box-sizing: border-box}
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: rgb(24, 3, 3);
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    
+    .text {
+      color: #000000;
+      font-size: 30px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    
+    .numbertext {
+      color: #270221;
+      font-size: 20px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: rgb(245, 171, 184);
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #fc598f;
+    }
+    
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      height: 400px;
+    }
+    
+.p3{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("cupback1.jpg");
+  background-size: 1300px;
+  color: #800080;
+  text-align: center;
+}
+.h1{
+  font-size: 45px;
+  color: #f32976;
+}
+.p7{
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: rgb(42, 4, 80);
+  background-color: mistyrose;
+}
+</style>
+</head>
+      </style>
+      <body>
+        <div style="background-image: url('rainbowback.jpg');">
+      <div class="topnav">
+        <img src="logo1.jpg"class = "i1" height="200" width="200">
+        <a href="bill.html">Bill</a>
+        <a class="active" href="pyo.html">Place Your Order</a>
+        <a href="recipies.html">Recipes</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="homepage.html">Home</a>
+        </div>
+      <p class="p1">Cupacakes...<br></p>
+      <p class="p2"> We have a different concept for cupacakes<br>
+SUPRISE CUPCAKES !!!<br>
+ On the purchase of 7 Cupcakes you get 7 different flavours
+and one rainbow cupcake free <br>
+Choose How Much Quantity You Want:</p>
+
+<div class="slideshow-container">
+    
+  <div class="mySlides fade">
+    <div class="numbertext">1/7</div>
+    <img src="vanilla.webp" class="center">
+    <div class="text">Vanilla CupCake</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2/7</div>
+    <img src="chocolate.webp" class="center">
+    <div class="text">Chocolate CupCake</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3/7</div>
+    <img src="caramel.jpg" class="center">
+    <div class="text">Caramel CupCake</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4/7</div>
+    <img src="sundae.webp" class="center">
+    <div class="text">Sundae CupCake</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">5/7</div>
+    <img src="lemon.jpg" class="center">
+    <div class="text">Lemon CupCake</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">6/7</div>
+    <img src="mint.jpg" class="center">
+    <div class="text">MintChocochip CupCake</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">7/7</div>
+    <img src="ed velevt.webp" class="center">
+    <div class="text">RedVelvet CupCake</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+
+</head>
+<head>
+<script>
+function validateForm() {
+  var pr1 = document.forms["myForm"]["fname"].value;
+  if (pr1 == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="action" onsubmit="return validateForm()" method="post">
+  Quantity Of Cupcakes <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+
+
+
+<p class="p7">Cakes...<br></p>
+<style> 
+
+  .h1 { 
+      color: rgb(145, 0, 65); 
+      font-size: 45px;
+      font-family: cursive; 
+      background-color: mistyrose;
+  } 
+
+  .multipleSelection { 
+      width: 1S300px; 
+      background-color: rgb(247, 221, 221); 
+  } 
+
+  .selectBox { 
+      position: relative; 
+  } 
+
+  .selectBox select { 
+      width: 100%; 
+      font-weight: bold; 
+  } 
+
+  .overSelect { 
+      position: absolute; 
+      left: 0; 
+      right: 0; 
+      top: 0; 
+      bottom: 0; 
+  } 
+
+  #checkBoxes { 
+      display: none; 
+      border: 1px #fabfde solid; 
+  } 
+
+  #checkBoxes label { 
+      display: block; 
+  } 
+
+  #checkBoxes label:hover { 
+      background-color: #f3bbd5; 
+  } 
+  
+</style> 
+
+<body> 
+<p class="h1">Cake Flavours</p> 
+<form> 
+  <div class="multipleSelection"> 
+      <div class="selectBox"onclick="showCheckboxes()"> 
+          <select> 
+              <option>Select options</option> 
+          </select> 
+          <div class="overSelect"></div> 
+      </div> 
+
+      <div id="checkBoxes"> 
+        <input type="checkbox" id="C1" name="C1" value="Chocolate Cake"<label for="C1">Chocolate Cake</label><br>
+        <input type="checkbox" id="C2" name="C2" value="Vailla Cake"<label for="C2">Vanilla Cake</label><br>
+        <input type="checkbox" id="C3" name="C3" value="Red Velvet Cake" <label for="C3">Red Velvet Cake</label><br>
+        <input type="checkbox" id="C4" name="C4" value="ButterScotch Cake"<label for="C4">ButterScotch Cake</label><br>
+        <input type="checkbox" id="C5" name="C5" value="Lemon Butter Cake"<label for="C5">Lemon Butter Cake</label><br>
+        <input type="checkbox" id="C6" name="C6" value="Mint Chocochip Cake"<label for="C6">Mint Chocochip Cake</label><br>
+        <input type="checkbox" id="C7" name="C7" value="Chocolate Truffle Cake"<label for="C7">Chocolate Truffle Cake</label><br>
+        <input type="checkbox" id="C8 name="C1" value="Bluberry Cake"  <label for="C8">Blueberry Cake</label><br>
+        <input type="checkbox" id="C9" name="C9" value="Pineapple Cake"<label for="C9">Pineapple Cake</label><br>
+        <input type="checkbox" id="C10" name="C10" value="Strawberry Cake" <label for="C10">Strawberry Cake</label><br>
+        <input type="checkbox" id="C11" name="C11" value=" Fruit and Nut Cake"<label for="C11">Fruit and Nut Cake</label><br>
+        <input type="checkbox" id="C12" name="C12" value="Carrot Cake"<label for="C12">Carrot Cake</label><br>
+        <input type="checkbox" id="C13" name="C13" value=" Pecan's Cake"<label for="C13"> Pecan's Cake</label><br>
+        <input type="checkbox" id="C14" name="C14" value=" Caramel Cake"  <label for="C14"> Caramel Cake</label><br>
+        <input type="checkbox" id="C15" name="C15" value=" Mixed Fruit Cake"<label for="C15">Mixed Fruit Cake</label> 
+        
+      </div> 
+  </div> 
+</form> 
+
+<script>
+// script for checkboxes
+
+  var show = true; 
+
+  function showCheckboxes() { 
+      var checkboxes =  
+          document.getElementById("checkBoxes"); 
+
+      if (show) { 
+          checkboxes.style.display = "block"; 
+          show = false; 
+      } else { 
+          checkboxes.style.display = "none"; 
+          show = true; 
+      } 
+  } 
+  
+//script for cupcake slideshow
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+    </body>
+    <style>
+      .input_hidden {
+        position: absolute;
+        left: -9999px;
+    }
+    
+    .selected {
+        background-color: #ccc;
+    }
+    
+    #emotion label {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    #emotion label img {
+        padding: 3px;
+    }
+    </style>
+    </head>
+    <div id="Cake">
+        
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake1"><img src="c1.webp" width="20%"></label>
+            
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake1"><img src="c2.webp" width="20%"></label>
+        
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake1"><img src="c3.webp" width="20%"></label>
+    
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake2"><img src="c4.webp" width="20%" /></label> 
+            
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake1"><img src="c5.webp" width="20%"></label>
+    
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake2"><img src="c6.webp" width="20%" /></label>
+    
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake2"><img src="c7.webp" width="20%" /></label>
+        
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake2"><img src="c8.webp" width="20%" /></label>
+    
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake2"><img src="c9.webp" width="20%" /></label>
+    
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake2"><img src="c10.webp" width="20%" /></label>
+            
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake1"><img src="c11.jpg" width="20%"></label>
+    
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake1"><img src="c12.webp" width="20%"></label>
+    
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake2"><img src="c13.webp" width="20%" /></label>
+            
+         <input type="radio" name="Cake" id="Cake" />
+            <label for="cake1"><img src="C16.webp" width="20%"></label>
+    
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake2"><img src="c14.webp" width="20%" /></label>
+            
+        <input type="radio" name="Cake" id="Cake" />
+            <label for="cake1"><img src="c15.webp" width="20%"></label>
+    
+        
+    </div>
+    </body>
+<br>
+<br>
+<br>
+<br>
+<p class="p3">Contact Us &copy; <br> Sugar Stars<br>
+  94 Trout St.
+  Los Angeles, CA 90066 <br>
+  Contact Number:- 56849<br>
+  Follow US On:
+  </p>
+  </body>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row {
+      display: flex;
+    }
+    
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+    .sm{
+              font-size: 20px;
+              font-family: cursive;
+              color: blue;
+          }
+          
+    </style>
+    </head>
+    <body>
+    
+      <div class="row">
+        <div class="column">
+            <p><a href="https://www.instagram.com/"class="sm">Instagram</a></p>
+
+          <img src="instalogo.webp" alt="" style="width: 100px;">
+        </div>
+        <div class="column">
+            <p><a href="https://accounts.google.com/"class="sm">Gmail</a></p>
+          <img src="gmaillogo.png" alt="" style="width: 200px;">
+        </div>
+        <div class="column">
+            <p><a href="https://www.facebook.com/" class="sm">Facebook</a></p>
+          <img src="fblogo.png" alt="" style="width: 100px;">
+    </div>
+  </div>
+    </body>
+  </html>
+   
+  
+  
